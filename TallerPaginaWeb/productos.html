@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Detalles del Producto</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" id="nombre_pagina">Tienda</a>
+        <nav>
+            <a href="index.html" class="nav_paginas">Inicio</a>
+            <a href="about.html" class="nav_paginas">Sobre Nosotros</a>
+            <a href="contact.html" class="nav_paginas">Contacto</a>
+        </nav>
+    </header>
+
+    <div id="contenido">
+        <h1 id="nombreProducto"></h1>
+        <div class="producto-container">
+            <div class="imagen_producto">
+                <img id="imagenProducto" width="200" alt="Imagen del Producto">
+            </div>
+            <div class="especificaciones">
+                <ul id="especificaciones_lista">
+                    <li><p id="precioProducto"></p></li>
+                    <button id="menos">-</button>
+                    <span class="contador" id="cantidad">1</span>
+                    <button id="mas">+</button>
+                </ul>
+            </div>
+        </div>
+        <button id="comprarBtn">Comprar</button>
+    </div>
+
+</body>
+</html>
